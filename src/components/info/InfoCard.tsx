@@ -10,7 +10,7 @@ export const InfoCard = ({ image, number, text, title }: Props) => {
     return (
         <div className="flex flex-col mt-12 ">
 
-            <div className="flex items-center justify-center gap-8 ">
+            <div className="flex items-center justify-center gap-4 ">
 
                 <div className="w-1/3">
                     <div className="flex justify-center items-center w-[100px] h-[100px] lg:w-[120px] lg:h-[150px] ">
