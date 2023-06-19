@@ -29,11 +29,11 @@ export const SideMenu = () => {
                     </div>
 
                     <div className="flex flex-col justify-center space-y-4 ml-10 mt-32">
-                        <h3 className="text-xl font-normal text-black">Home</h3>
-                        <h3 className="text-xl font-normal text-black">New</h3>
-                        <h3 className="text-xl font-normal text-black">Popular</h3>
-                        <h3 className="text-xl font-normal text-black">Trending</h3>
-                        <h3 className="text-xl font-normal text-black">Categories</h3>
+                        <h3 className="text-xl font-normal text-black cursor-pointer">Home</h3>
+                        <h3 className="text-xl font-normal text-black cursor-pointer">New</h3>
+                        <h3 className="text-xl font-normal text-black cursor-pointer">Popular</h3>
+                        <h3 className="text-xl font-normal text-black cursor-pointer">Trending</h3>
+                        <h3 className="text-xl font-normal text-black cursor-pointer">Categories</h3>
                     </div>
                 </div>
             </div>

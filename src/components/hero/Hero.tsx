@@ -25,7 +25,7 @@ export const Hero = () => {
                             fulfilling its promise?
                         </p>
 
-                        <button className="text-white mt-6 text-center font-medium uppercase bg-[#f15d52] px-12 py-3">
+                        <button className="text-white mt-6 text-center font-medium uppercase bg-[#f15d52] px-12 py-3 hover:bg-[#00001a]">
                             Read more
                         </button>
 

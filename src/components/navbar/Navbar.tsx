@@ -9,7 +9,7 @@ import { UIContext } from "@/context";
 export const Navbar = () => {
 
     const { toggleMenu } = useContext(UIContext);
-    
+
     return (
         <nav className="container mx-auto flex items-center mt-8 px-5">
             <div>
@@ -19,15 +19,21 @@ export const Navbar = () => {
             <div className="flex-1" />
 
             <div className="hidden md:flex md:gap-8">
-                <div className="text-[#acabb1] font-semibold text-lg">Home</div>
-                <div className="text-[#acabb1] font-semibold text-lg">New</div>
-                <div className="text-[#acabb1] font-semibold text-lg">Popular</div>
-                <div className="text-[#acabb1] font-semibold text-lg">Trending</div>
-                <div className="text-[#acabb1] font-semibold text-lg">Categories</div>
+                <h3 className="text-[#acabb1] font-semibold text-lg cursor-pointer">Home</h3>
+                <h3 className="text-[#acabb1] font-semibold text-lg cursor-pointer">New</h3>
+                <h3 className="text-[#acabb1] font-semibold text-lg cursor-pointer">Popular</h3>
+                <h3 className="text-[#acabb1] font-semibold text-lg cursor-pointer">Trending</h3>
+                <h3 className="text-[#acabb1] font-semibold text-lg cursor-pointer">Categories</h3>
             </div>
 
             <div className="md:hidden">
-                <Image src="/assets/images/icon-menu.svg" alt="menu" width={30} height={30} onClick={toggleMenu} />
+                <Image
+                    src="/assets/images/icon-menu.svg"
+                    alt="menu"
+                    width={30}
+                    height={30}
+                    className="cursor-pointer"
+                    onClick={toggleMenu} />
             </div>
         </nav>
     )
