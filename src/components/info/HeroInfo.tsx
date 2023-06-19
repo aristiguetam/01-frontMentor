@@ -3,7 +3,7 @@ import { InfoCard } from './InfoCard';
 
 export const HeroInfo = () => {
     return (
-        <div className="container mx-auto px-5 md:px-0 flex flex-col md:flex-row items-center  gap-5 mb-5">
+        <div className="container mx-auto px-5 md:px-0 flex flex-col md:flex-row items-center  gap-5 mb-20">
 
             <InfoCard
                 image={"/assets/images/image-retro-pcs.jpg"}
