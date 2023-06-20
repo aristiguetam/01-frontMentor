@@ -12,13 +12,13 @@ export const InfoCard = ({ image, number, text, title }: Props) => {
 
             <div className="flex items-center justify-center gap-4 ">
 
-                <div className="w-1/3">
-                    <div className="flex justify-center items-center w-[100px] h-[100px] lg:w-[120px] lg:h-[150px] ">
-                    <Image src={image} alt={title} width={0} height={0} sizes="(100vw)" className="w-full  object-cover object-center" />
-                    </div>
+                <div className="w-[28%]">
+                    {/* <div className="flex justify-center items-center w-auto h-[100px] lg:w-[120px] lg:h-[150px] "> */}
+                    <Image src={image} alt={title} width={0} height={0} sizes="(100vw)" className="w-full h-auto  object-cover object-center" />
+                    {/* </div> */}
                 </div>
 
-                <div className="w-2/3 space-y-2">
+                <div className="w-[72%] space-y-2">
                     <span className="text-[#c6c5ca] text-4xl font-medium">
                         {number}
                     </span>
